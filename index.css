@@ -50,6 +50,10 @@ header {
 
 
 }
+.banner-buttons{
+    display: flex;
+    gap: 16px;
+}
 
 #info-section {
     display: flex;
