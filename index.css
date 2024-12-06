@@ -46,8 +46,15 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 25px
+    padding: 25px;
 
+    > h5 {
+        margin-top: 200px;
+    }
+
+    > h2 {
+        margin-top: 10px;
+    }
 
 }
 .banner-buttons{
@@ -57,13 +64,16 @@ header {
 }
 .banner-btn{
     background-color: yellow;
-    border-radius: 100px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 25px
-  
-
+    padding: 25px;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 50px;
+    
+    border: none;
 
 }
 .banner-btn.secondary{
