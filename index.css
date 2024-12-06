@@ -36,7 +36,7 @@ header {
 
 #banner {
     height: 600px;
-    background-image: url("https://th.bing.com/th/id/OIP.OFMDrjlUSeYPzyxOivoEPgHaE1?rs=1&pid=ImgDetMain");
+    background-image: url("/picture/bird.jpg");
     background-size: cover;
     background-position: center;
     mask-image: url("/images/bgMask-desktop.svg");
