@@ -53,6 +53,21 @@ header {
 .banner-buttons{
     display: flex;
     gap: 16px;
+
+}
+.banner-btn{
+    background-color: yellow;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px
+  
+
+
+}
+.banner-btn.secondary{
+background-color: yellowgreen;
 }
 
 #info-section {
