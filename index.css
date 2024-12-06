@@ -48,14 +48,6 @@ header {
     justify-content: center;
     padding: 25px;
 
-    > h5 {
-        margin-top: 200px;
-    }
-
-    > h2 {
-        margin-top: 10px;
-    }
-
 }
 .banner-buttons{
     display: flex;
@@ -74,7 +66,13 @@ header {
     margin-bottom: 50px;
     
     border: none;
-
+    /* border-color: transparent; */
+    transition: box-shadow 0.4s ease-in-out, transform 0.4s cubic-bezier(.32,-0.98,.6,1.87);
+}
+.banner-btn:hover{
+    /* border: 2px solid red; */
+    transform: scale(1.05);
+    box-shadow: 0px 4px 16px 0px rgba(5, 233, 93, 0.9);
 }
 .banner-btn.secondary{
 background-color: yellowgreen;
@@ -91,6 +89,7 @@ background-color: yellowgreen;
     >h1 {
         font-size: 42px;
         font-weight: 800;
+
     }
 
     >p {
@@ -134,10 +133,22 @@ background-color: yellowgreen;
     grid-column: span 2;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 960px) {
     #grid-links{
         display:flex;
         flex-direction: column;
+    }
+
+    #banner {
+
+        > h5 {
+            margin-top: 200px;
+        }
+    
+        > h2 {
+            margin-top: 10px;
+        }
+
     }
 }
 
