@@ -36,10 +36,10 @@ header {
 
 #banner {
     height: 600px;
-    background-image: url("/picture/bird.jpg");
+    background-image: url("/images/bird.jpg");
     background-size: cover;
     background-position: center;
-    mask-image: url("/images/bgMask-desktop.svg");
+    mask-image: url("/images/mask.svg");
     mask-size: cover;
     mask-position: bottom;
 
